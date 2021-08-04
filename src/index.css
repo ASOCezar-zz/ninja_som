@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url('../src/templates/Lato/Lato-Regular.ttf'), format('ttf');
+}
+
+body {
+  margin: 0;
+  font-family: Lato;
+}
