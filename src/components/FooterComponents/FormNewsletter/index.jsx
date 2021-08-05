@@ -12,9 +12,7 @@ export const FormNewsletter = () => {
         <input type="text" placeholder="SEU NOME" className="inputName" />
         <input type="text" placeholder="SEU E-MAIL" className="inputEmail" />
       </div>
-      <div className="formSubmitButton">
-        <span> ENVIAR </span>
-      </div>
+      <button className="formSubmitButton">ENVIAR</button>
     </div>
   );
 };

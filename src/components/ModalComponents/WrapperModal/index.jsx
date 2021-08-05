@@ -42,9 +42,7 @@ export const WrapperModal = () => {
           <div className="hrDiv">
             <hr />
           </div>
-          <div className="addToCartButton">
-            <span> Adicionar ao carrinho </span>
-          </div>
+          <button className="addToCartButton">Adicionar ao carrinho</button>
         </div>
       </div>
     </div>

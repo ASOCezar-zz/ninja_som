@@ -19,9 +19,9 @@ export const NewItem = ({ image, text1, text2 }) => {
           <span className="firstLine">{text1}</span>
           <span className="secondLine">{text2}</span>
         </div>
-        <div className="checkButton">
+        <button className="checkButton">
           <p>CONFIRA</p>
-        </div>
+        </button>
       </div>
     </div>
   );

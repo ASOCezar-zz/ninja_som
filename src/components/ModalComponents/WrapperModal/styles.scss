@@ -112,6 +112,12 @@
         line-height: 12px;
         letter-spacing: 0.05em;
         text-align: center;
+        cursor: pointer;
+        opacity: 0.8;
+
+        &:hover {
+          opacity: 1;
+        }
 
       }
       
@@ -130,6 +136,7 @@
         height: 40px;
         background-color: $secondary-color;
         border-radius: 5px;
+        border: none;
 
         display: flex;
         align-items: center;
@@ -137,15 +144,16 @@
 
         margin-top: 19px;
 
-        span {
-          color: $primary-color;
-          font-size: 11px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 11px;
-          letter-spacing: 0.05em;
-          text-align: left;
-        }
+        cursor: pointer;
+
+        font-family: 'Lato';
+        color: $primary-color;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11px;
+        letter-spacing: 0.05em;
+        text-align: left;
       }
     }
   }

@@ -31,9 +31,7 @@ export const WrapperFeaturedInstruments = () => {
           );
         })}
       </div>
-      <div className="seeMoreButton">
-        <span> VER MAIS </span>
-      </div>
+      <button className="seeMoreButton">VER MAIS</button>
     </div>
   );
 };
