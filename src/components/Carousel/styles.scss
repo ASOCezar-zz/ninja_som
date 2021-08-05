@@ -87,16 +87,16 @@
   cursor: pointer;
 }
 
-.rightArrow {
-  position: absolute;
-  inset-inline-end: 65px;
+.rightArrow, .leftArrow {
   inset-block-start: 237.81px;
   cursor: pointer;
+  position: absolute;
+}
+
+.rightArrow {
+  inset-inline-end: 65px;
 }
 
 .leftArrow {
-  position: absolute;
   inset-inline-start: 39px;
-  inset-block-start: 237.81px;
-  cursor: pointer;
 }

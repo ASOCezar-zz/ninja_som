@@ -1,4 +1,3 @@
-import './styles.scss';
 import { WrapperTopHeader } from '../WrapperTopHeader';
 import { WrapperCenterHeader } from '../WrapperCenterHeader';
 import { WrapperBottomHeader } from '../WrapperBottomHeader';

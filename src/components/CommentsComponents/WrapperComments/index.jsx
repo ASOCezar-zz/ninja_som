@@ -1,9 +1,10 @@
 import './styles.scss';
 
 import profileCommentsImage from '../../../public/images/profileComments_image.svg';
-import { Comment } from '../Comment';
 import leftArrowIcon from '../../../public/icons/comments_leftArrow_icon.svg';
 import rightArrowIcon from '../../../public/icons/comments_rightArrow_icon.svg';
+
+import { Comment } from '../Comment';
 
 export const WrapperComments = () => {
   return (
