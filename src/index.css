@@ -1,9 +1,18 @@
 @font-face {
   font-family: 'Lato';
-  src: local('Lato'), url('../src/templates/Lato/Lato-Regular.ttf'), format('ttf');
+  src: local('Lato'), url('../src/templates/font/Lato/Lato-Regular.ttf'), format('ttf');
 }
 
 body {
   margin: 0;
   font-family: Lato;
+  background-color: #e8e8e8;
 }
+
+  #root {
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
