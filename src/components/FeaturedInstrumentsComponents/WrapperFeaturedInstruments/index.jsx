@@ -7,8 +7,6 @@ export const WrapperFeaturedInstruments = () => {
   const featuredInstrumentsContext = useContext(FeaturedInstrumentsContext);
   const { products } = featuredInstrumentsContext;
 
-  console.log(products);
-
   return (
     <div className="wrapperFeaturedInstruments">
       <div className="featuredInstrumentsTitle">
