@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import closeModalIcon from '../../../public/icons/closeModal_icon.svg';
 import seeMoreIcon from '../../../public/icons/seeMore_arrow_icon.svg';
 
-export const Modal = ({ instrument = {}, setIsModalOpen }) => {
+export const Modal = ({ instrument, setIsModalOpen }) => {
   return (
     <div className="modal">
       <div className="closeModalIcon">
