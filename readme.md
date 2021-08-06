@@ -22,7 +22,7 @@
 
 
 **4. Ao final da instalação de todos os pacotes necessários, dê o comando "npm start" ou "yarn start" (de acordo com o gerenciador de pacotes que tiver instalado) no terminal de seu editor e aguarde a finalização da criação do servidor**
-- Deve ser aberta uma aba em seu navegador com o projeto em funcionamento. Caso não ocorra e essa mesma mensagem aparecer, você poderá acessar a página do projeto digitando o endereço presente no campo "Local" desta tela.
+- Deve ser aberta uma aba em seu navegador com o projeto em funcionamento. Caso não ocorra e essa mesma mensagem abaixo aparecer, você poderá acessar a página do projeto digitando o endereço presente no campo "Local" desta tela em seu navegador.
 
 ![Screenshot 4](public/screenshots/screenshot_4.png)
 
